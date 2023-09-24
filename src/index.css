@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Typography */
+  .text-heading-1 {
+    @apply text-4xl font-medium font-base md:text-7xl md:font-semibold;
+  }
+  .text-heading-2 {
+    @apply text-3xl font-medium font-base md:text-5xl md:font-semibold;
+  }
+  .text-heading-3 {
+    @apply text-2xl font-normal font-base md:text-4xl md:font-medium;
+  }
+  .text-heading-4 {
+    @apply text-xl font-normal font-base md:text-3xl md:font-medium;
+  }
+  .text-heading-5 {
+    @apply text-lg font-medium font-base md:text-xl;
+  }
+  .text-heading-6 {
+    @apply text-base font-medium font-base md:text-base;
+  }
+  .text-subtitle {
+    @apply text-lg font-medium font-base md:text-lg;
+  }
+  .text-body {
+    @apply text-sm font-normal font-base md:text-base;
+  }
+  .text-button {
+    @apply text-sm font-medium uppercase font-base md:text-base;
+  }
+  .text-link {
+    @apply text-sm font-medium font-base md:text-base;
+  }
+  .text-overline {
+    @apply text-xs font-medium uppercase font-base md:text-sm;
+  }
+  .text-caption {
+    @apply text-xs font-normal font-base md:text-sm;
+  }
+  .text-caption-small {
+    @apply text-xs font-medium font-base md:text-xs;
+  }
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
